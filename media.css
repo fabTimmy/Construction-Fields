@@ -1,0 +1,362 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+@media screen and (max-width:1240px) {
+   nav{
+     width: 100% !important;
+   }
+   /* main section */
+    main.main-container{
+        height: 100%;
+        width: 100% !important;
+        padding: left; -1em; 
+    }
+    aside{
+        text-align: center;
+        margin-left: -11em;
+    }
+    div h1{
+        margin-left: 1em;
+    }
+    div h3{
+        margin-left: 3.90em;
+        font-size: 1.45em;
+        letter-spacing: 7px;
+    }
+    .tex{
+        text-align: center;
+    }
+   /* section */
+    section{
+        padding-bottom: 4.50em;
+      width: 100vw !important;
+    }
+        .btn-1{
+            display: flex;
+            white-space: nowrap;
+            margin: 2em auto 3em auto !important;
+        }
+   /* section-1 */
+    .container-1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 5em;
+        width: 100%;
+        height: 100vh;
+        margin: 5em; 
+        gap: 5em;
+      }
+       .aside-1{
+           margin: 1em;
+           text-align: left;
+           font-size: 0.90em;
+        }
+        .aside-1 > h2{
+           font-size: 2em;
+           margin: 1em 0;
+           font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+           /* white-space: nowrap; */
+       } 
+       .aside-1 > h4{
+           font-size: 1.30em;
+           font-weight: 400;
+           font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+           margin: 1em 0;
+           /* white-space: nowrap; */
+        } 
+        .aside-1 > p{
+           /* white-space: nowrap; */
+           margin: 1em 1em 1em 0 !important;
+           font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+       }
+   /* section-2 */
+   .container-2{
+     width: 100% !important;
+   }
+    .tex-2{
+        margin: 5em 6em 1.50em 5em;
+    }
+    .svg > img{
+        width: 65px;
+        height: 65px;
+    }
+     /* section-3 */
+  .container-3{
+     width: 100% !important;
+   }
+ .article{
+     margin-left: -6em;
+ }
+  .art-2 > .btn-2{
+    margin-left: 0.10em;
+  }
+   /* section-4 */
+  .container-4{
+     width: 100% !important;
+   }
+  /* section-6 */
+  .container-6{
+    height: 55vh !important;
+     width: 100% !important;
+} 
+   /* section-7 */
+   .container-7{
+     width: 100% !important;
+       height: 55vh;
+   }
+}
+ @media screen and (max-width:880px){
+   nav{
+     justify-content: space-between;
+     padding: 0 2em;
+   }
+   
+    /* section-1 */
+    .container-1{
+        flex-direction: column;
+        padding: 2em;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 9em 3em 17em 0 ;
+
+    }
+    .sect-i > img{
+      width: 300px;
+      height: 500px;
+      margin-top: 14em;
+/*       margin: left 12.5em !important; */
+      flex: 1;
+    }
+    .aside-1{
+        text-align: left;
+/*         margin-left: 35em !important; */
+/*         margin-top: -5em; */
+        font-size: 1em;
+        flex: 1;
+        margin: Auto !important;
+    }
+    .aside-1 > h4{
+        margin: 1em 4em 1em 0;
+    }
+    .aside-1 > p{
+        margin: 0 6em 0 0 !important;
+    }
+    /* section-3 */
+    .container-3{
+        height: 100%;
+        outline: none;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 1em !important;
+    }
+    .article{
+        position: relative;
+        flex-direction: column;
+        outline: none;
+        margin-left: 0.60em;
+    }
+    .art-1{
+        position: absolute;
+        /* right: 39%; */
+        /* bottom: 77em; */
+        /* margin: 0 5em; */
+        margin-top: -95em;
+    }
+    .art-1 > img{
+        width: 65%;
+        height: 65%;
+        margin-left: -1.50em;
+    }
+    .art-1 h2{
+        text-align: left;
+    }
+    .art-1 > p{
+        text-align: left;
+        margin: 0 17em 0 -1em;
+    }
+    .art-2{
+        margin: -25em 0 0 0;
+    
+    }
+    .art-2 > img{
+        width: 65%;
+        height: 65%;
+        margin-left: -1.50em;
+    }
+    .art-2 > p{
+        text-align: left;
+        margin: 2em 17em 0 -1em;
+    }
+    .art-2 > .btn-2{
+        margin-top: 2em;
+        margin-left: -0.90em !important;
+    } 
+   /* section-4 */
+    .dot{
+        margin-left: -38em;
+    }
+   /* section-6 */
+  .container-6{
+      height: 80vh !important;
+  }
+  .part-1{
+    flex-direction: column;
+    top: 100px;
+}
+.main-1{
+    margin-left: 2em;
+} 
+   /* section-7 */
+ .container-7{
+  height: 80vh !important;
+ }
+ } 
+@media screen and (max-width:540px){
+   /* main section */
+main.main-container{
+width: 190vw !important;
+/*       padding-left: 45em !important; */
+}
+  /* section */
+ section{
+   width: 190vw !important; 
+ }
+  /* section-1 */
+    .container-1{
+        justify-items: center;
+        align-content: center;
+       width: 190vw !important;
+    }
+    .aside-1{
+        margin-left: 13em !important;
+    }
+    .aside-1 > h4{
+        margin: 1em 0em 1em 0;
+    }
+    .aside-1 > p{
+        margin: 0 0em 0 0 !important;
+    }
+  /* section-2 */
+  .container-2{
+    width: 190vw !important;
+  }
+    .container-2 > h2{
+        margin-bottom: 1.50em;
+    }
+    .tex-2{
+        display: flex;
+        flex-direction: column;
+        margin: 1.50em;
+    }
+    .svg{
+        display: flex;
+        flex-direction: column;
+    }
+    .svg > img{
+        width: 65px;
+        height: 65px;
+    }
+  /* section-3 */
+    .container-3{
+      width: 190vw !important;
+      display: none;
+    }
+    .yel-cont{
+        margin: 2em 0em 5em 0em;
+        padding: 8em;
+        width: 100%;
+    }
+    .article{
+        margin-left: -0.05em;
+    }
+    .art-1 img{
+        width: 355px;
+        height: 480px;
+        margin-left: -4em;
+        margin-top: 7em;
+    }
+    .art-1 > h2{
+        margin-left: -1em;
+    }
+    .art-1 > p{
+        margin: 0 5em 0 -5em;
+        padding: 1em;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .art-2 img{
+        width: 355px;
+        height: 480px;
+        margin-left: -4em;
+    }
+    .art-2{
+        margin-top: -35em;
+    }
+    .art-2 > p{
+        margin: 1.50em 5em 0 -5em;
+        padding: 1em;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .art-2 > .btn-2{
+        margin: 2em 3em;
+    }
+      /* section-4 */
+    .container-4{
+       margin: 15em 0 -10em 0;
+       width: 190vw !important;
+    }
+    .tex-3 > h1{
+        font-size: 1.50em;
+    }
+    .tex-3 > p{
+      margin: 1em 4.50em;
+    }
+    .article-1 > .img-2{
+        left: 80px;
+        width: 250px;
+        height: 250px;
+        bottom: -70px;
+    }
+    .article-1 > .imgg-2{
+        width: 500px;
+        height: 500px;
+        bottom: -500px;
+        left: 20px;
+    }
+    .dot{
+        margin-left: -10em;
+        margin-top: 35em;
+    }
+    .dott{
+        margin-left: 20em;
+        margin-top: 19em;
+        width: 200px;
+        height: 200px;
+    }
+  /* section-6 */
+    .container-6{
+        width: 190vw !important;
+        height: 85vh !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+  .part-1{
+    padding: 5em 1em 6em 1em;
+    margin: 1em 6em -11em -1em;
+}
+.main-1{
+    margin-left: 2em;
+}
+   /* section-7 */
+  .container-7{
+    height: 85vh !important;
+    width: 190vw !important;
+}
+}
